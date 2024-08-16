@@ -18,6 +18,6 @@ def home(request):
         fm = contact()
         print("Its come from GET method")
 
-    return render(request, 'base/home.html',{'form': fm})
+    return render(request, 'base/index.html',{'form': fm})
 
 
